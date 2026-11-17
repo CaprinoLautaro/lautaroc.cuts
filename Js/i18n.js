@@ -58,7 +58,7 @@ const EN = {
   "pr_close_btn": "Message me on WhatsApp",
   "c_title": "Let’s talk",
   "c_sub": "Tell me what you’re working on and we’ll figure out how to edit it better.",
-  "c_ig": "Instagram @renapolesedits",
+  "c_ig": "Instagram @lautaroc.cuts",
   "f_copy": "© 2026 · Argentina",
   "rules_title": "Working rules",
   "rules_intro": "These rules exist so we both work well, I can deliver quality and you get the best possible result.",
@@ -110,7 +110,7 @@ const EN = {
   "r10_note": "Recent reel: <strong>edit focused on strength and progression</strong>, clean cuts and clear text.",
 };
 
-const I18N_TITLE = { es: "Lautaro Caprino (RenapolesEdits) — Editor de video", en: "Lautaro Caprino (RenapolesEdits) — Video Editor" };
+const I18N_TITLE = { es: "Lautaro Caprino (lautaroc.cuts) — Editor de video", en: "Lautaro Caprino (lautaroc.cuts) — Video Editor" };
 const nodes = document.querySelectorAll('[data-i18n]');
 nodes.forEach(el => { el.dataset.es = el.innerHTML; });
 
