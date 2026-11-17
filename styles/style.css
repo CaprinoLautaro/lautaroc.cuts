@@ -483,9 +483,12 @@ section {
 ============================================= */
 .price-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.3rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.1rem;
   align-items: stretch;
+}
+@media (max-width: 1120px) {
+  .price-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 .price-card {
   position: relative;
@@ -494,7 +497,7 @@ section {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--r-l);
-  padding: 2rem;
+  padding: 1.6rem;
   transition: border-color 0.25s;
 }
 .price-card:hover { border-color: var(--purple); }
